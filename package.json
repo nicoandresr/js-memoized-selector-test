@@ -1,6 +1,6 @@
 {
   "name": "js-memoized-selector-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility for test memoized redux selectors",
   "main": "./dist/index.js",
   "scripts": {
