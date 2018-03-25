@@ -1,0 +1,34 @@
+{
+  "name": "js-memoized-selector-test",
+  "version": "1.0.0",
+  "description": "utility for test memoized redux selectors",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "test": "markdown-code-blocks -t js < README.md | node",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoandresr/js-memoized-selector-test.git"
+  },
+  "keywords": [
+    "test",
+    "memoized",
+    "redux",
+    "selectors"
+  ],
+  "author": "nicoandres.rodriguez@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoandresr/js-memoized-selector-test/issues"
+  },
+  "homepage": "https://github.com/nicoandresr/js-memoized-selector-test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "markdown-code-blocks": "^0.0.1",
+    "reselect": "^3.0.1",
+    "tape": "^4.9.0"
+  }
+}
